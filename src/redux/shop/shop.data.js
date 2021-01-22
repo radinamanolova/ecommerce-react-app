@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  makeup: {
     id: 1,
     title: 'Makeup',
     routeName: 'makeup',
@@ -66,7 +66,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  fragrance: {
     id: 2,
     title: 'Fragrance',
     routeName: 'fragrance',
@@ -133,7 +133,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  hair: {
     id: 3,
     title: 'Hair',
     routeName: 'hair',
@@ -182,7 +182,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  body: {
     id: 4,
     title: 'Body',
     routeName: 'body',
@@ -249,10 +249,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  skinCare: {
     id: 5,
     title: 'Skin Care',
-    routeName: 'skin-care',
+    routeName: 'skinCare',
     items: [
       {
         id: 38,
@@ -316,6 +316,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
