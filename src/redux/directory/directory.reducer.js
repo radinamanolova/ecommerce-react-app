@@ -30,7 +30,7 @@ const INITIAL_STATE = {
       imageUrl: 'https://images.unsplash.com/photo-1531895861208-8504b98fe814?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/skinCare'
+      linkUrl: 'shop/skincare'
     }
   ]
 };
