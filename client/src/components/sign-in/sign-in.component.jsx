@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import CustomButton from '../custom-button/custom-button.component';
 import FormInput from '../form-input/form-input.component';
 import { googleSignInStart, emailSignInStart } from '../../redux/user/user.actions';
-import { SignInContainer, SignInTitle, ButtonsBarContainer } from './sign-in.styles';
+import { SignInContainer, SignInTitle, ButtonsBarContainer, SignInButton, SignInGoogleButton } from './sign-in.styles';
 
 class SignIn extends React.Component {
   constructor (props) {
@@ -53,12 +52,12 @@ class SignIn extends React.Component {
             required
           />
           <ButtonsBarContainer>
-            <CustomButton type="submit">
+            <SignInButton type="submit">
               Sign in
-            </CustomButton>
-            <CustomButton type="button" onClick={ googleSignInStart } isGoogleSignIn>
+            </SignInButton>
+            <SignInGoogleButton type="button" onClick={ googleSignInStart } isGoogleSignIn>
               Sign in with Google
-            </CustomButton>
+            </SignInGoogleButton>
           </ButtonsBarContainer>
         </form>
       </SignInContainer>
