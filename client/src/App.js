@@ -11,6 +11,7 @@ import { checkUserSession } from './redux/user/user.actions';
 
 const HomePage = lazy(() => import('./pages/homepage/homepage.component'));
 const ShopPage = lazy(() => import('./pages/shop/shop.component'));
+const AboutUsPage = lazy(() => import('./pages/about/about.component'));
 const CheckoutPage = lazy(() => import('./pages/checkout/checkout.component'));
 const SignInAndSignUpPage = lazy(() => import('./pages/signin-and-signup/signin-and-signup.component'));
 
@@ -36,6 +37,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={ HomePage } />
               <Route path="/shop" component={ ShopPage } />
+              <Route path="/aboutus" component={ AboutUsPage } />
               <Route exact path="/checkout" component={ CheckoutPage } />
               <Route
                 exact

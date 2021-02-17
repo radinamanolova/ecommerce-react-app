@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
 
   @media screen and (max-width: 800px){
     height: 60px;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 20px;
   }
 `;
@@ -22,7 +22,7 @@ export const LogoContainer = styled(Link)`
 
   @media screen and (max-width: 800px){
     width: 50px;
-    padding: 0 10px;
+    padding: 0;
   }
 `;
 
